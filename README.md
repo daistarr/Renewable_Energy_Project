@@ -73,7 +73,9 @@ Based on this approach, Non-Stationary ARIMA performed the best, with the lowest
 
 ### 7. Takeaways
 
-* **Optimal Predictive Model**: The ARIMA Non-Stationary model stands out as the most suitable for this dataset. Foremost in Future Growth: Solar energy is forecasted to witness the most substantial growth in the next decade.
+* **Optimal Predictive Model**: The ARIMA Non-Stationary model stands out as the most suitable for this dataset.
+
+* **Foremost in Future Growth**: Solar energy is forecasted to witness the most substantial growth in the next decade.
   
 * **Navigating Towards Renewables**: A discernible upward trend in several renewable sources, notably solar, wind, and biofuels, signals a pivot towards enhanced sustainable energy practices. The pronounced rises in solar and wind generation may be indicative of periods where policies or incentives were introduced to promote renewable energies.
   
