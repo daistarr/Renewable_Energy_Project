@@ -67,6 +67,8 @@ Based on this approach, Non-Stationary ARIMA performed the best, with the lowest
 
 ![Modeling Selection](https://github.com/daistarr/Renewable_Energy_Project/blob/a61d325991ead32fb731e7cb342cbebd6bf711c4/4_Modeling/Modeling_Figures/model_eval.png)
 
+![Solar Energy](https://github.com/daistarr/Renewable_Energy_Project/blob/228056c919da13d6fc047b5dfb0148a7e4e48dc4/4_Modeling/Modeling_Figures/renewable_energy.png)
+
 ---
 
 ### 7. Takeaways
