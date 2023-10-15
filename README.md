@@ -31,6 +31,12 @@ The line plots give us a temporal perspective on the evolution of various energy
 
 * Hydro generation seems to be stable and doesn’t exhibit the same growth trend as wind and solar energy. This could be due to geographical or environmental limitations, as hydroelectric power generation often requires substantial water bodies and specific geographical conditions. Also, existing hydroelectric facilities might have reached their production capacities.
 
+### 5. Modeling
+
+### 6. Modeling Selection
+
+### 6. Takeaways
+
 * **Summary**: The line plots depict the varied evolution of energy sources, with solar and wind seeing recent sharp rises, hydro and geothermal remaining consistent, and an overall increase in renewable contributions.
 
 
