@@ -5,11 +5,15 @@
 ---
 
 ### 1. Problem Statement 
-The paradigm shift towards renewable energy is palpable worldwide with diversified energy sources such as hydropower, wind, solar, biofuel, and geothermal energy becoming increasingly pivotal. This shift is not only fundamental for environmental sustainability but also vital for the strategic planning of policymakers, energy corporations, and investors, especially in the context of the United States, where energy demands are incessantly burgeoning.
+The paradigm shift towards renewable energy is palpable worldwide with diversified energy sources such as hydropower, wind, solar, biofuel, and geothermal energy becoming increasingly pivotal. This shift is not only fundamental for environmental sustainability but also vital for the strategic planning of policymakers, energy corporations, and investors, especially in the context of the United States, where energy demands are incessantly increasing.
+
+---
 
 ### 2. Dataset
 
-Historical record ranging from 1965 to 2022 from the "Renewable Energy World Wide" dataset from Kaggle.
+Historical record ranging from 1965 to 2022 from the This site was built using ["Renewable Energy World Wide"](https://www.kaggle.com/datasets/belayethossainds/renewable-energy-world-wide-19652022) dataset from Kaggle.
+
+---
 
 ### 3. Data Wrangling
 
@@ -17,7 +21,13 @@ During data preprocessing, I merged all these datasets based on the year and cou
 
 The final dataset contains 57 rows, representing data from 1965 to 2022, and 21 columns containing the year feature as well as renewable power sources types: geo biomass, wind, solar, hydro electricity, biofuels electricity generation (TWh) as well as percentage of electricity produced from the same sources.
 
+![Data](https://github.com/daistarr/Renewable_Energy_Project/blob/fc387f02635a7b58a980e8c8eac4e4bd85e89d1d/1_Wrangling/data.png)
+
+---
+
 ### 4. Exploration Data Analysis (EDA)
+
+![Line Plot](https://github.com/daistarr/Renewable_Energy_Project/blob/fc387f02635a7b58a980e8c8eac4e4bd85e89d1d/2_EDA/EDA_figures/year.png)
 
 The line plots give us a temporal perspective on the evolution of various energy sources:
 
@@ -31,11 +41,35 @@ The line plots give us a temporal perspective on the evolution of various energy
 
 * Hydro generation seems to be stable and doesn’t exhibit the same growth trend as wind and solar energy. This could be due to geographical or environmental limitations, as hydroelectric power generation often requires substantial water bodies and specific geographical conditions. Also, existing hydroelectric facilities might have reached their production capacities.
 
+---
+
 ### 5. Modeling
+
+The objective of this stage involves employing Time Series Forecasting to formulate predictive models using ARIMA and LSTM, aimed at forecasting the growth of various renewable energy sources over the subsequent decade. 
+
+A variety of approaches and models were explored for a methodological comparison, being compared based on the Mean Absolute Error (MAE), Root Mean Square Error (RMSE), the latest recorded value, the predicted value, growth percentage, Compound Annual Growth Rate (CAGR), and Sum of Squared Residuals (SSR). 
+
+Also, to validate and evaluate the model, data were analyzed utilizing machine learning, allocating 80% of the dataset to the training set and the remaining 20% to the testing set. 
+
+Furthermore, all model plots feature solid lines representing the actual observed data, dashed lines indicating the forecasted values for the test set period (model validation period), and dotted lines projecting forecasted values for the next decade (2022-2031).
+
+Here is the example of the Non-Stationary ARIMA (AutoRegressive Integrated Moving Average), a prominent model known for its proficiency in analyzing and forecasting time series data, particularly due to its capability to handle data with a trend. In this second approach, I decided not to check the stationarity of the data:
+
+![ARIMA](https://github.com/daistarr/Renewable_Energy_Project/blob/a61d325991ead32fb731e7cb342cbebd6bf711c4/4_Modeling/Modeling_Figures/ARIMA2.png)
+
+---
 
 ### 6. Modeling Selection
 
-### 6. Takeaways
+In determining the optimal model for predicting the most rapidly growing renewable energy source over the next decade, I assessed various error metrics—Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and Sum of Squared Residuals (SSR)—across several models, namely Linear Regression, Non-Stationary ARIMA, Stationary ARIMA, and LSTM, each employed to forecast energy generation for each source.
+
+Based on this approach, Non-Stationary ARIMA performed the best, with the lowest MAE and RMSE as well as the second lowest SSR.
+
+![Modeling Selection](https://github.com/daistarr/Renewable_Energy_Project/blob/a61d325991ead32fb731e7cb342cbebd6bf711c4/4_Modeling/Modeling_Figures/model_eval.png)
+
+---
+
+### 7. Takeaways
 
 * **Summary**: The line plots depict the varied evolution of energy sources, with solar and wind seeing recent sharp rises, hydro and geothermal remaining consistent, and an overall increase in renewable contributions.
 
