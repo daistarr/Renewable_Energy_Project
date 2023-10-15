@@ -73,8 +73,10 @@ Based on this approach, Non-Stationary ARIMA performed the best, with the lowest
 
 ### 7. Takeaways
 
-* **Summary**: The line plots depict the varied evolution of energy sources, with solar and wind seeing recent sharp rises, hydro and geothermal remaining consistent, and an overall increase in renewable contributions.
+* **Optimal Predictive Model**: The ARIMA Non-Stationary model stands out as the most suitable for this dataset. Foremost in Future Growth: Solar energy is forecasted to witness the most substantial growth in the next decade.
+  
+* **Navigating Towards Renewables**: A discernible upward trend in several renewable sources, notably solar, wind, and biofuels, signals a pivot towards enhanced sustainable energy practices. The pronounced rises in solar and wind generation may be indicative of periods where policies or incentives were introduced to promote renewable energies.
+  
+* **Influence of Technological Progress**: Technological advancements and diminishing production costs, especially in the realms of solar and wind energy, are likely driving factors in their increased adoption and development.
 
-
-### 5. Modeling
 
