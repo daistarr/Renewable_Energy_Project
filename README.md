@@ -5,6 +5,7 @@
 ---
 
 ### 1. Problem Statement 
+
 The paradigm shift towards renewable energy is palpable worldwide with diversified energy sources such as hydropower, wind, solar, biofuel, and geothermal energy becoming increasingly pivotal. This shift is not only fundamental for environmental sustainability but also vital for the strategic planning of policymakers, energy corporations, and investors, especially in the context of the United States, where energy demands are incessantly increasing.
 
 ---
