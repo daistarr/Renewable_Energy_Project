@@ -66,8 +66,7 @@ In determining the optimal model for predicting the most rapidly growing renewab
 
 Based on this approach, Non-Stationary ARIMA performed the best, with the lowest MAE and RMSE as well as the second lowest SSR.
 
-![Modeling Selection|320x271](https://github.com/daistarr/Renewable_Energy_Project/blob/a61d325991ead32fb731e7cb342cbebd6bf711c4/4_Modeling/Modeling_Figures/model_eval.png)
-
+<img src="https://github.com/daistarr/Renewable_Energy_Project/blob/a61d325991ead32fb731e7cb342cbebd6bf711c4/4_Modeling/Modeling_Figures/model_eval.png" width="320">
 ---
 
 ### 7. Takeaways
@@ -76,7 +75,8 @@ Based on this approach, Non-Stationary ARIMA performed the best, with the lowest
 
 * **Foremost in Future Growth**: Solar energy is forecasted to witness the most substantial growth in the next decade.
 
-  ![Solar Energy](https://github.com/daistarr/Renewable_Energy_Project/blob/228056c919da13d6fc047b5dfb0148a7e4e48dc4/4_Modeling/Modeling_Figures/renewable_energy.png)
+
+<img src="https://github.com/daistarr/Renewable_Energy_Project/blob/228056c919da13d6fc047b5dfb0148a7e4e48dc4/4_Modeling/Modeling_Figures/renewable_energy.png" width="600">
 
 * **Navigating Towards Renewables**: A discernible upward trend in several renewable sources, notably solar, wind, and biofuels, signals a pivot towards enhanced sustainable energy practices. The pronounced rises in solar and wind generation may be indicative of periods where policies or incentives were introduced to promote renewable energies.
   
