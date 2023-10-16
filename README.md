@@ -14,6 +14,8 @@ The paradigm shift towards renewable energy is palpable worldwide with diversifi
 
 Historical record ranging from 1965 to 2022 from the This site was built using ["Renewable Energy World Wide"](https://www.kaggle.com/datasets/belayethossainds/renewable-energy-world-wide-19652022) dataset from Kaggle.
 
+[Check out the raw dataset](0_data)
+
 ---
 
 ### 3. Data Wrangling
@@ -66,9 +68,8 @@ In determining the optimal model for predicting the most rapidly growing renewab
 
 Based on this approach, Non-Stationary ARIMA performed the best, with the lowest MAE and RMSE as well as the second lowest SSR.
 
-<div style="text-align:center">
-  <img src="https://github.com/daistarr/Renewable_Energy_Project/blob/a61d325991ead32fb731e7cb342cbebd6bf711c4/4_Modeling/Modeling_Figures/model_eval.png" width="320">
-</div>
+<img src="https://github.com/daistarr/Renewable_Energy_Project/blob/a61d325991ead32fb731e7cb342cbebd6bf711c4/4_Modeling/Modeling_Figures/model_eval.png" width="320">
+
 ---
 
 ### 7. Takeaways
