@@ -14,11 +14,14 @@ The paradigm shift towards renewable energy is palpable worldwide with diversifi
 
 Historical record ranging from 1965 to 2022 from the This site was built using ["Renewable Energy World Wide"](https://www.kaggle.com/datasets/belayethossainds/renewable-energy-world-wide-19652022) dataset from Kaggle.
 
-[Check out the raw dataset](0_data)
+* [Raw dataset](0_data)
 
 ---
 
 ### 3. Data Wrangling
+
+* [Data Wrangling Notebook](1_Wrangling/Capstone2_wrangling.ipynb)
+* [Clean dataset](1_Wrangling/merged_usa_dataset.csv)
 
 During data preprocessing, I merged all these datasets based on the year and country name. In case the observation was split in more than one row for a given year and country, the rows were cumulatively summed and the parameters coalesced. This strategy facilitated the formulation of a consolidated dataset. Subsequently the data was filtered to exclusively encompass the United States, which is the focus of the report. Rows with absent values were removed to assure data integrity.
 
