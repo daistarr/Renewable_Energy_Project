@@ -2,6 +2,8 @@
 
 ![Renewable Energy Project](https://github.com/daistarr/Renewable_Energy_Project/blob/3d20d9e459848fd468fe8ec3a55a1b8109bf3d0a/Banner.png)
 
+* [Report](4_Modeling/5_Report/Report.pdf)
+* [Presentation](6_Presentation/Presentation.pdf)
 ---
 
 ### 1. Problem Statement 
@@ -85,7 +87,8 @@ Based on this approach, Non-Stationary ARIMA performed the best, with the lowest
 ### 7. Takeaways
 
 * [Report](4_Modeling/5_Report/Report.pdf)
-
+* [Presentation](6_Presentation/Presentation.pdf)
+  
 * **Optimal Predictive Model**: The ARIMA Non-Stationary model stands out as the most suitable for this dataset.
 
 * **Foremost in Future Growth**: Solar energy is forecasted to witness the most substantial growth in the next decade.
