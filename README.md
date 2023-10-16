@@ -12,9 +12,9 @@ The paradigm shift towards renewable energy is palpable worldwide with diversifi
 
 ### 2. Dataset
 
-Historical record ranging from 1965 to 2022 from the This site was built using ["Renewable Energy World Wide"](https://www.kaggle.com/datasets/belayethossainds/renewable-energy-world-wide-19652022) dataset from Kaggle.
-
 * [Raw dataset](0_data)
+
+Historical record ranging from 1965 to 2022 from the This site was built using ["Renewable Energy World Wide"](https://www.kaggle.com/datasets/belayethossainds/renewable-energy-world-wide-19652022) dataset from Kaggle.
 
 ---
 
@@ -32,6 +32,9 @@ The final dataset contains 57 rows, representing data from 1965 to 2022, and 21 
 ---
 
 ### 4. Exploration Data Analysis (EDA)
+
+* [EDA Notebook](2_EDA/Capstone2_EDA.ipynb)
+* [Pre-processing Notebook](3_Preprocessing/Capstone2_Preprocessing.ipynb)
 
 ![Line Plot](https://github.com/daistarr/Renewable_Energy_Project/blob/fc387f02635a7b58a980e8c8eac4e4bd85e89d1d/2_EDA/EDA_figures/year.png)
 
@@ -51,6 +54,8 @@ The line plots give us a temporal perspective on the evolution of various energy
 
 ### 5. Modeling
 
+* [Modeling Notebook](4_Modeling/Capstone2_Modeling.ipynb)
+
 The objective of this stage involves employing Time Series Forecasting to formulate predictive models using ARIMA and LSTM, aimed at forecasting the growth of various renewable energy sources over the subsequent decade. 
 
 A variety of approaches and models were explored for a methodological comparison, being compared based on the Mean Absolute Error (MAE), Root Mean Square Error (RMSE), the latest recorded value, the predicted value, growth percentage, Compound Annual Growth Rate (CAGR), and Sum of Squared Residuals (SSR). 
@@ -66,6 +71,8 @@ Here is the example of the Non-Stationary ARIMA (AutoRegressive Integrated Movin
 ---
 
 ### 6. Modeling Selection
+
+* [Modeling Notebook](4_Modeling/Capstone2_Modeling.ipynb)
 
 In determining the optimal model for predicting the most rapidly growing renewable energy source over the next decade, I assessed various error metrics—Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and Sum of Squared Residuals (SSR)—across several models, namely Linear Regression, Non-Stationary ARIMA, Stationary ARIMA, and LSTM, each employed to forecast energy generation for each source.
 
