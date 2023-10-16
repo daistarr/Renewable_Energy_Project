@@ -84,6 +84,8 @@ Based on this approach, Non-Stationary ARIMA performed the best, with the lowest
 
 ### 7. Takeaways
 
+* [Report](4_Modeling/5_Report/Report.pdf)
+
 * **Optimal Predictive Model**: The ARIMA Non-Stationary model stands out as the most suitable for this dataset.
 
 * **Foremost in Future Growth**: Solar energy is forecasted to witness the most substantial growth in the next decade.
