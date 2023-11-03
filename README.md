@@ -8,7 +8,7 @@
 
 ### 1. Problem Statement 
 
-The paradigm shift towards renewable energy is palpable worldwide with diversified energy sources such as hydropower, wind, solar, biofuel, and geothermal energy becoming increasingly pivotal. This shift is not only fundamental for environmental sustainability but also vital for the strategic planning of policymakers, energy corporations, and investors, especially in the context of the United States, where energy demands are incessantly increasing.
+This case study presents an exploration of time series analysis using small datasets, focusing on the global paradigm shift towards renewable energy sources including hydropower, wind, solar, biofuel, and geothermal energy. It underscores the critical role this shift plays in environmental sustainability and strategic planning for policymakers, energy corporations, and investors, with a particular emphasis on the United States, a nation experiencing a relentless surge in energy demands. Through this analysis, we aim to demonstrate how even limited data can yield significant insights into the trends and dynamics of renewable energy adoption and its implications on future energy strategies.
 
 ---
 
@@ -88,6 +88,8 @@ Based on this approach, Non-Stationary ARIMA performed the best, with the lowest
 
 * [Report](4_Modeling/5_Report/Report.pdf)
 * [Presentation](6_Presentation/Presentation.pdf)
+
+* **Insights & Limitations from Small Datasets**: While small datasets have provided valuable insights, it's crucial to recognize the limitations due to external factors. These include geopolitical tensions, policy changes, and financial incentives, which can all significantly sway renewable energy trends and outcomes.
   
 * **Optimal Predictive Model**: The ARIMA Non-Stationary model stands out as the most suitable for this dataset.
 
